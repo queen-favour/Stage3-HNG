@@ -75,7 +75,7 @@ const Gallery = ({ searchTerm, setImages, selectedTags, selectedTag, images, loa
             </DragDropContext>
           ) : (
             <div className="image-not-found">
-              Image not found for "{searchTerm}".
+              <p className='not-found-text'>Image not found for "{searchTerm}".</p>
             </div>
           )}
         </>

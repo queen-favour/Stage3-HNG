@@ -35,6 +35,7 @@ function Form() {
   };
 
   return (
+    <div className='login-main-container'>
     <div className='login-container'>
       <ToastContainer /> {/* Add the ToastContainer component */}
       <form className="form" onSubmit={handleSubmit}>
@@ -44,7 +45,7 @@ function Form() {
 
       <br/>
         <label>E-mail
-          <input
+          <input className='input'
             type="email"
             value={email}
             name="email"
@@ -56,7 +57,7 @@ function Form() {
         <br />
         <label>
           Password
-          <input
+          <input className='input'
             type="password"
             value={password}
             name="password"
@@ -89,6 +90,7 @@ function Form() {
           </Link>
         </span>
       </form>
+    </div>
     </div>
   );
 }
