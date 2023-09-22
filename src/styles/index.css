@@ -125,7 +125,8 @@ input{
   width: 99%;
   padding: 10px;
   outline: none;
-  border: none;
+  border: black;
+  background-color: lightgrey;
   color: black;
 }
 .button{
