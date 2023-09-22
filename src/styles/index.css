@@ -263,6 +263,14 @@ input{
   color: white;
   font-weight: bold;
 }
+.logout{
+  border: 1px solid black;
+  border-radius: 18px;
+  padding: 8px;
+  width: 80px;
+  text-align: center;
+  cursor: pointer;
+}
 
 .image-not-found{
   display: flex;
